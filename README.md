@@ -65,7 +65,7 @@ An online provisional driving exam platform designed to help users practice and 
 
 ---
 
-## 🏢 Founder — IZO SERVICE QUICKY
+## 🏢 Founder IZO SERVICE QUICKY
 
 **IZO SERVICE QUICKY** is a digital service and creative technology business focused on making online services, visual communication, and web solutions more accessible to individuals and businesses.
 
