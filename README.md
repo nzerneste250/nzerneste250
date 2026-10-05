@@ -1,319 +1,179 @@
-<h1 align="center">Hi 👋, I'm NZAYISENGA Erneste</h1>
+<div align="center">
 
-<h3 align="center">
-Software Developer • Graphic Designer • Tech Entrepreneur
-</h3>
+# 👋 Hi, I'm NZAYISENGA Erneste
 
-<p align="center">
-Founder of <strong>IZO SERVICE QUICKY</strong> • Final-year Software Engineering student at <strong>INES Ruhengeri</strong>
-</p>
+### Software Developer • Graphic Designer • Tech Entrepreneur
 
-<p align="center">
+Founder of **IZO SERVICE QUICKY**  
+Final-year Software Engineering student at **INES Ruhengeri**
 
-<a href="https://github.com/nzerneste250">
-💻 <strong>GitHub</strong>
-</a>
+<br>
 
-&nbsp;&nbsp;•&nbsp;&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-nzerneste250-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nzerneste250)
+[![Instagram](https://img.shields.io/badge/Instagram-@nzerneste250-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/nzerneste250/)
+[![X](https://img.shields.io/badge/X-@nz__erneste250-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/nz_erneste250)
+[![Facebook](https://img.shields.io/badge/Facebook-nzerneste250-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/nzerneste250)
 
-<a href="https://www.instagram.com/nzerneste250/">
-📸 <strong>Instagram</strong>
-</a>
-
-&nbsp;&nbsp;•&nbsp;&nbsp;
-
-<a href="https://x.com/nz_erneste250">
-𝕏 <strong>X</strong>
-</a>
-
-&nbsp;&nbsp;•&nbsp;&nbsp;
-
-<a href="https://www.facebook.com/nzerneste250">
-📘 <strong>Facebook</strong>
-</a>
-
-</p>
-
-<p align="center">
-📧 <strong>Email:</strong>
-<a href="mailto:Nzerneste250@gmail.com">Nzerneste250@gmail.com</a>
-</p>
+</div>
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-- 🎓 Final-year **Software Engineering** student at **INES Ruhengeri**
-- 💻 Software Developer focused on practical web applications
-- 🎨 Graphic Designer and Branding Creative
+I am a Rwandan **Software Engineering student, Software Developer, Graphic Designer, and Tech Entrepreneur**.
+
+I enjoy combining **software, visual design, and business thinking** to build practical digital solutions for real users.
+
+- 🎓 Final-year Software Engineering student at **INES Ruhengeri**
+- 💻 Full-stack and web application development
+- 🎨 Graphic design and branding
 - 🚀 Founder of **IZO SERVICE QUICKY**
-- 🌍 Based in **Rwanda**
-- 🧠 Interested in software engineering, web development, digital services, design and entrepreneurship
-- 🛠️ I enjoy turning ideas into practical digital products
+- 🌍 Based in Rwanda
+- 💡 Interested in software engineering, digital services, design and entrepreneurship
 
 ---
 
-## 🚀 Featured Project
+## Featured Project
 
-### [ikizame.rw](https://ikizame.rw/)
+### 🚘 [ikizame.rw](https://ikizame.rw/)
 
-**ikizame.rw** is an online provisional driving exam platform designed to help users practice and prepare for Rwanda's provisional driving licence examinations using phones and computers.
+An online provisional driving exam platform designed to help users prepare for Rwanda's provisional driving licence examinations from phones and computers.
 
-### Main Features
+**Highlights**
 
 - Mobile-first exam practice
 - Responsive web application
-- User-friendly interface
-- MTN MoMo and Airtel Money payment support
+- MTN MoMo & Airtel Money payment support
 - Payment verification
 - Secure backend
 - Production VPS deployment
-- Mobile and desktop accessibility
 
-### Technologies
+**Tech Stack**
 
 `Node.js` `Express.js` `MySQL` `JavaScript` `Nginx` `PM2` `Ubuntu VPS` `PayPack`
 
-### Links
-
-- 🌐 [Visit ikizame.rw](https://ikizame.rw/)
-- 💻 [View Source Code](https://github.com/nzerneste250/ikizame-app)
+[🌐 Live Website](https://ikizame.rw/)  
+[💻 Source Code](https://github.com/nzerneste250/ikizame-app)
 
 ---
 
-## 🏢 Founder — IZO SERVICE QUICKY
+## Founder — IZO SERVICE QUICKY
 
-I am the founder of **IZO SERVICE QUICKY**, a digital service and creative technology business focused on helping individuals and businesses access online services, visual design solutions and website development.
+**IZO SERVICE QUICKY** provides digital and creative services for individuals and businesses.
 
-### 🌐 Online Service Assistance
+### Services
 
-Assistance with online public and administrative services, including:
-
-- Irembo service assistance
-- RRA online service assistance
-- RDB online service assistance
-- RURA online service assistance
-- Other online administrative and digital services
-
-### 🎨 Graphic Design & Branding
-
-Services include:
-
-- Logo Design
-- Brand Identity
-- Flyers
-- Posters
-- Business Cards
-- Social Media Graphics
-- Corporate Branding
-- Promotional Materials
-
-### 💻 Website Development
-
-Services include:
-
-- Business Websites
-- Portfolio Websites
-- Responsive Websites
-- Web Applications
-- Domain Setup
-- Hosting Setup
-- Website Deployment
-- Website Maintenance
+| Digital Services | Creative Services | Web Services |
+|---|---|---|
+| Irembo assistance | Logo design | Business websites |
+| RRA assistance | Brand identity | Portfolio websites |
+| RDB assistance | Flyers & posters | Responsive websites |
+| RURA assistance | Social media graphics | Web applications |
+| Other online services | Business cards | Hosting & deployment |
 
 ---
 
-## 🛠️ Skills & Technologies
+## Tech Stack
 
-### Frontend Development
+<div align="center">
 
-- HTML5
-- CSS3
-- JavaScript
-- TypeScript
-- React
-- Next.js
-- Tailwind CSS
-- Responsive Web Design
+### Frontend
 
-### Backend Development
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-- Node.js
-- Express.js
-- REST APIs
+### Backend & Database
 
-### Database
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-- MySQL
+### Deployment & Tools
 
-### Deployment & Server
-
-- Ubuntu
-- Nginx
-- PM2
-- Vercel
-- VPS Deployment
-- Domain Configuration
-
-### Development Tools
-
-- Git
-- GitHub
-- VS Code
-- npm
-- Linux
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat-square)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 
 ### Design
 
-- Graphic Design
-- UI/UX Design
-- Adobe Photoshop
-- Branding
-- Social Media Design
+![Graphic Design](https://img.shields.io/badge/Graphic_Design-8A2BE2?style=flat-square)
+![UI/UX](https://img.shields.io/badge/UI%2FUX-008C95?style=flat-square)
+![Photoshop](https://img.shields.io/badge/Adobe_Photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white)
+![Branding](https://img.shields.io/badge/Branding-D4A017?style=flat-square)
+
+</div>
 
 ---
 
-## 💻 Technology Badges
-
-<p>
-
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-
-</p>
-
-<p>
-
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
-<img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
-<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
-
-</p>
-
----
-
-## 🎓 Education
-
-### INES Ruhengeri
-
-**Software Engineering**
-
-- Final-year student
-- Rwanda
-
----
-
-## 💼 Experience
+## Experience
 
 ### Developer — ikizame.rw
 
 Independent software project.
 
-I designed, developed, deployed and maintain the **ikizame.rw** online provisional driving exam platform.
+Designed, developed, deployed, and maintain the **ikizame.rw** platform.
 
-### Responsibilities
+**Responsibilities**
 
-- Frontend development
-- Backend development
+- Frontend and backend development
 - Database integration
 - Payment integration
 - VPS deployment
-- Nginx configuration
-- Production maintenance
-- Testing
+- Nginx and PM2 configuration
+- Testing and maintenance
 - Security improvements
 
 ---
 
-## 🎯 Current Focus
+## Education
 
-Currently focused on:
+### INES Ruhengeri
 
-- Building and improving real-world web applications
-- Growing **ikizame.rw**
-- Developing **IZO SERVICE QUICKY**
-- Improving full-stack software development skills
-- Production deployment and server management
-- Learning more about secure web systems
-- Combining software, design and entrepreneurship
+**Software Engineering**
+
+Final-year student • Rwanda
 
 ---
 
-## 📊 GitHub Activity
+## GitHub Activity
 
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=nzerneste250&show_icons=true&theme=transparent&hide_border=true"
-    alt="NZAYISENGA Erneste GitHub Statistics"
-  />
-</p>
+<div align="center">
 
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=nzerneste250&layout=compact&theme=transparent&hide_border=true"
-    alt="Most Used Languages"
-  />
-</p>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=nzerneste250&show_icons=true&theme=transparent&hide_border=true" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nzerneste250&layout=compact&theme=transparent&hide_border=true" />
+
+</div>
 
 ---
 
-## 🌐 Connect With Me
+## Connect With Me
 
-### GitHub
-
-[@nzerneste250](https://github.com/nzerneste250)
-
-### Instagram
-
-[@nzerneste250](https://www.instagram.com/nzerneste250/)
-
-### X
-
-[@nz_erneste250](https://x.com/nz_erneste250)
-
-### Facebook
-
-[nzerneste250](https://www.facebook.com/nzerneste250)
-
-### Email
-
-[Nzerneste250@gmail.com](mailto:Nzerneste250@gmail.com)
+| Platform | Profile |
+|---|---|
+| GitHub | [@nzerneste250](https://github.com/nzerneste250) |
+| Instagram | [@nzerneste250](https://www.instagram.com/nzerneste250/) |
+| X | [@nz_erneste250](https://x.com/nz_erneste250) |
+| Facebook | [nzerneste250](https://www.facebook.com/nzerneste250) |
+| Email | [Nzerneste250@gmail.com](mailto:Nzerneste250@gmail.com) |
 
 ---
 
-## 🤝 Let's Build Something Useful
+<div align="center">
 
-I am interested in opportunities and collaborations involving:
+### Design → Build → Deliver
 
-- Software Development
-- Web Development
-- Graphic Design
-- Branding
-- Digital Solutions
-- Technology Entrepreneurship
-
-You can explore my work on GitHub or contact me through my social media profiles.
-
----
-
-<p align="center">
-<strong>Design → Build → Deliver</strong>
-</p>
-
-<p align="center">
 Software Developer • Graphic Designer • Tech Entrepreneur
-</p>
 
-<p align="center">
-Founder of <strong>IZO SERVICE QUICKY</strong>
-</p>
+**Founder of IZO SERVICE QUICKY**
+
+</div>
