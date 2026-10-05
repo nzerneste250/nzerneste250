@@ -57,7 +57,7 @@ An online provisional driving exam platform designed to help users prepare for R
 
 ---
 
-## Founder — IZO SERVICE QUICKY
+## Founder IZO SERVICE QUICKY
 
 **IZO SERVICE QUICKY** provides digital and creative services for individuals and businesses.
 
