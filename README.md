@@ -20,16 +20,17 @@ Final-year Software Engineering student at **INES Ruhengeri**
 
 ## About Me
 
-I am a Rwandan **Software Engineering student, Software Developer, Graphic Designer, and Tech Entrepreneur**.
+I am a Rwandan Software Engineering student, Software Developer, Graphic Designer and Tech Entrepreneur.
 
-I enjoy combining **software, visual design, and business thinking** to build practical digital solutions for real users.
+I enjoy combining software, design and business ideas to create practical digital solutions that people can actually use.
 
 - 🎓 Final-year Software Engineering student at **INES Ruhengeri**
-- 💻 Full-stack and web application development
+- 💻 Interested in full-stack and web application development
 - 🎨 Graphic design and branding
 - 🚀 Founder of **IZO SERVICE QUICKY**
 - 🌍 Based in Rwanda
-- 💡 Interested in software engineering, digital services, design and entrepreneurship
+- 🛠️ I like building practical digital products
+- 💡 Interested in software, digital services, design and entrepreneurship
 
 ---
 
@@ -37,39 +38,44 @@ I enjoy combining **software, visual design, and business thinking** to build pr
 
 ### 🚘 [ikizame.rw](https://ikizame.rw/)
 
-An online provisional driving exam platform designed to help users prepare for Rwanda's provisional driving licence examinations from phones and computers.
+**ikizame.rw** is an online provisional driving exam platform that helps users practice and prepare for Rwanda's provisional driving licence examinations using phones and computers.
 
-**Highlights**
+### Main Features
 
 - Mobile-first exam practice
 - Responsive web application
-- MTN MoMo & Airtel Money payment support
+- MTN MoMo and Airtel Money payment support
 - Payment verification
 - Secure backend
 - Production VPS deployment
+- Mobile and desktop accessibility
 
-**Tech Stack**
+### Technologies
 
 `Node.js` `Express.js` `MySQL` `JavaScript` `Nginx` `PM2` `Ubuntu VPS` `PayPack`
 
-[🌐 Live Website](https://ikizame.rw/)  
-[💻 Source Code](https://github.com/nzerneste250/ikizame-app)
+### Links
+
+- 🌐 [Visit ikizame.rw](https://ikizame.rw/)
+- 💻 [View Source Code](https://github.com/nzerneste250/ikizame-app)
 
 ---
 
-## Founder IZO SERVICE QUICKY
+## IZO SERVICE QUICKY
 
-**IZO SERVICE QUICKY** provides digital and creative services for individuals and businesses.
+I am the founder of **IZO SERVICE QUICKY**, a digital service and creative technology business.
+
+The business focuses on helping individuals and businesses with online services, graphic design, branding and website development.
 
 ### Services
 
-| Digital Services | Creative Services | Web Services |
+| Online Services | Graphic Design | Website Services |
 |---|---|---|
 | Irembo assistance | Logo design | Business websites |
 | RRA assistance | Brand identity | Portfolio websites |
-| RDB assistance | Flyers & posters | Responsive websites |
+| RDB assistance | Flyers and posters | Responsive websites |
 | RURA assistance | Social media graphics | Web applications |
-| Other online services | Business cards | Hosting & deployment |
+| Other online services | Business cards | Hosting and deployment |
 
 ---
 
@@ -87,13 +93,13 @@ An online provisional driving exam platform designed to help users prepare for R
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-### Backend & Database
+### Backend and Database
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-### Deployment & Tools
+### Deployment and Tools
 
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
@@ -116,15 +122,16 @@ An online provisional driving exam platform designed to help users prepare for R
 
 ## Experience
 
-### Developer ikizame.rw
+### Developer at ikizame.rw
 
 Independent software project.
 
-Designed, developed, deployed, and maintain the **ikizame.rw** platform.
+I designed, developed, deployed and maintain the **ikizame.rw** platform.
 
-**Responsibilities**
+### Responsibilities
 
-- Frontend and backend development
+- Frontend development
+- Backend development
 - Database integration
 - Payment integration
 - VPS deployment
@@ -140,7 +147,19 @@ Designed, developed, deployed, and maintain the **ikizame.rw** platform.
 
 **Software Engineering**
 
-Final-year student • Rwanda
+Final-year student  
+Rwanda
+
+---
+
+## Current Focus
+
+- Improving real-world web applications
+- Growing **ikizame.rw**
+- Developing **IZO SERVICE QUICKY**
+- Improving full-stack development skills
+- Learning more about production deployment and server management
+- Combining software, design and entrepreneurship
 
 ---
 
@@ -168,12 +187,27 @@ Final-year student • Rwanda
 
 ---
 
+## Let's Build Something Useful
+
+I am interested in opportunities and projects involving:
+
+- Software Development
+- Web Development
+- Graphic Design
+- Branding
+- Digital Services
+- Technology Entrepreneurship
+
+You can explore my work on GitHub or contact me through the links above.
+
+---
+
 <div align="center">
 
-### Design → Build → Deliver
+### Design • Build • Deliver
 
 Software Developer • Graphic Designer • Tech Entrepreneur
 
-**Founder of IZO SERVICE QUICKY**
+Founder of **IZO SERVICE QUICKY**
 
 </div>
