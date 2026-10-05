@@ -34,7 +34,7 @@ Software Developer • Graphic Designer • Tech Entrepreneur
 
 ---
 
-## 🚀 Featured Project — ikizame.rw
+## 🚀 Featured Project - ikizame.rw
 
 ### [ikizame.rw](https://ikizame.rw/)
 
