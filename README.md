@@ -116,7 +116,7 @@ An online provisional driving exam platform designed to help users prepare for R
 
 ## Experience
 
-### Developer — ikizame.rw
+### Developer ikizame.rw
 
 Independent software project.
 
