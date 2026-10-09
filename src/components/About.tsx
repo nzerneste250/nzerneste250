@@ -1,0 +1,5 @@
+import { portfolio } from "@/data/portfolio";
+import { SectionTitle } from "./SectionTitle";
+export function About() {
+  return <section id="about" className="section container about-grid"><div><SectionTitle number="01" eyebrow="A LITTLE ABOUT ME" title="Practical thinking. Creative perspective."/><div className="technical-visual" aria-hidden="true"><span>SOFTWARE</span><span>DESIGN</span><span>BUSINESS</span><i/><small>THREE PERSPECTIVES. ONE PRACTICAL APPROACH.</small></div></div><div className="about-copy">{portfolio.about.map(p => <p key={p}>{p}</p>)}<div className="about-notes"><span><small>MY APPROACH</small>Build for real people</span><span><small>MY PERSPECTIVE</small>Code + design + business</span></div><div className="language-list" aria-label="Language skills">{portfolio.languages.map(language => <span key={language.name}><strong>{language.name}</strong><small>{language.level}</small></span>)}</div></div></section>;
+}

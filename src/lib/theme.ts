@@ -1,0 +1,2 @@
+// Runs in the head before first paint. Storage can be unavailable in private browsing.
+export const themeInitScript = `(function(){var t;try{t=localStorage.getItem('erneste-theme')}catch(e){}if(t!=='light'&&t!=='dark')t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';document.documentElement.dataset.theme=t;document.documentElement.style.colorScheme=t;var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='dark'?'#08111D':'#F4F7FA'})();`;

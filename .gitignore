@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+*.tsbuildinfo
+.browser-check/
+lighthouse-reports/
+build-baseline.log
+production-server.log
+production-server.pid
+production-server-*.log
+production-server-*.pid
+browser-*.log
+build-*.log
+*.report.html
