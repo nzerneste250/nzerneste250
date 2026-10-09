@@ -1,0 +1,2 @@
+// The loader is opt-in so a JavaScript failure leaves the server-rendered page visible.
+export const loaderInitScript = `(function(){try{var r=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;var k='nzerneste-loader-seen';if(!r&&!sessionStorage.getItem(k)){sessionStorage.setItem(k,'1');document.documentElement.dataset.nzLoader='active'}}catch(e){}})();`;

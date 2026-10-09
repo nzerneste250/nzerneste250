@@ -12,13 +12,9 @@ export function sectionScrollTop(id: string, headerHeight: number) {
   const { section, heading } = content;
   const styles = getComputedStyle(section);
   const headingTop = heading.getBoundingClientRect().top + window.scrollY;
-  const contentBottom = section.getBoundingClientRect().bottom + window.scrollY - parseFloat(styles.paddingBottom || "0");
-  const contentHeight = contentBottom - headingTop;
-  const available = window.innerHeight - headerHeight;
-  // Center compact content only when it fits comfortably; long sections retain natural flow.
-  const gap = id === "about" && contentHeight < available * .78
-    ? Math.max(16, (available - contentHeight) / 2)
-    : 16;
+  // Keep the heading consistently below the measured sticky header. Do not center
+  // short sections: that creates avoidable blank space and differs from native hashes.
+  const gap = Math.max(16, Math.min(28, parseFloat(styles.paddingTop || "0") * .2));
   const maxScroll = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
   return Math.max(0, Math.min(maxScroll, headingTop - headerHeight - gap));
 }

@@ -1,17 +1,18 @@
+
 import type { NextConfig } from "next";
 
 const config: NextConfig = {
-  poweredByHeader: false,
-  async headers() {
-    return [{
-      source: "/:path*",
-      headers: [
-        { key: "X-Content-Type-Options", value: "nosniff" },
-        { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
-        { key: "X-Frame-Options", value: "SAMEORIGIN" },
-        { key: "Cross-Origin-Opener-Policy", value: "same-origin-allow-popups" },
-      ],
-    }];
+  // Generate a static website in the "out" directory
+  output: "export",
+
+  // Disable the Next.js image optimization server,
+  // which is unavailable with static export
+  images: {
+    unoptimized: true,
   },
+
+  // Disable the X-Powered-By header where applicable
+  poweredByHeader: false,
 };
+
 export default config;
