@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
 import { Icon } from "./Icon";
-import { useI18n } from "@/i18n";
 const storageKey = "erneste-theme";
 type Theme = "dark" | "light";
 function applyTheme(theme: Theme) {
@@ -10,7 +9,6 @@ function applyTheme(theme: Theme) {
     document.querySelector('meta[name="theme-color"]')?.setAttribute("content", theme === "dark" ? "#0B3155" : "#F5F9FF");
 }
 export function ThemeToggle() {
-  const { t } = useI18n();
   const [theme, setTheme] = useState<Theme>("dark");
   useEffect(() => {
     const current = document.documentElement.dataset.theme === "light" ? "light" : "dark";
@@ -30,5 +28,5 @@ export function ThemeToggle() {
     applyTheme(next); setTheme(next);
     try { localStorage.setItem(storageKey, next); } catch { /* The theme still works for this visit. */ }
   }
-  return <button className="theme-toggle" type="button" onClick={toggle} aria-label={t(theme === "dark" ? "Switch to light mode" : "Switch to dark mode")} title={t(theme === "dark" ? "Switch to light mode" : "Switch to dark mode")}><Icon name={theme === "dark" ? "sun" : "moon"}/></button>;
+  return <button className="theme-toggle" type="button" onClick={toggle} aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"} title={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}><Icon name={theme === "dark" ? "sun" : "moon"}/></button>;
 }

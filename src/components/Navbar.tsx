@@ -3,10 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { navigation, portfolio, sectionHref } from "@/data/portfolio";
 import { ThemeToggle } from "./ThemeToggle";
 import { sectionContent, sectionScrollTop } from "@/lib/section-navigation";
-import { useI18n } from "@/i18n";
-import { LanguageSelector } from "./LanguageSelector";
 export function Navbar() {
-  const { t } = useI18n();
   const [open, setOpen] = useState(false);
   const menuButton = useRef<HTMLButtonElement>(null);
   const header = useRef<HTMLElement>(null);
@@ -108,9 +105,9 @@ export function Navbar() {
     document.addEventListener("keydown", closeOnEscape); window.addEventListener("resize", closeOnDesktop);
     return () => { document.body.style.overflow = previous; document.removeEventListener("keydown", closeOnEscape); window.removeEventListener("resize", closeOnDesktop); };
   }, [open]);
-  return <header ref={header} className="header"><nav className="container nav" aria-label={t("Main navigation")}>
+  return <header ref={header} className="header"><nav className="container nav" aria-label={"Main navigation"}>
     <a className="brand" href="#home" onClick={() => setOpen(false)} aria-label={`${portfolio.name} home`}><span className="monogram">E<span>.</span></span><span>NZAYISENGA<br/><strong>Erneste</strong></span></a>
-    <div id="navigation" className={`nav-links ${open ? "is-open" : ""}`}>{navigation.map(item => <a aria-current={active === sectionHref(item).slice(1) ? "location" : undefined} className={item === "IZO SERVICE QUICKY" || item === "Contact" ? "mobile-link" : undefined} key={item} href={sectionHref(item)} onClick={() => setOpen(false)}>{t(item)}</a>)}<LanguageSelector/></div>
-    <div className="nav-actions"><LanguageSelector/><ThemeToggle/><a className="nav-contact" href="#contact" aria-current={active === "contact" ? "location" : undefined} onClick={() => setOpen(false)}>{t("Contact")} <span>↗</span></a><button ref={menuButton} type="button" className={`menu-toggle ${open ? "is-open" : ""}`} aria-expanded={open} aria-controls="navigation" aria-label={open ? t("Close menu") : t("Open menu")} onClick={() => setOpen(!open)}><span/><span/><span/></button></div>
+    <div id="navigation" className={`nav-links ${open ? "is-open" : ""}`}>{navigation.map(item => <a aria-current={active === sectionHref(item).slice(1) ? "location" : undefined} className={item === "IZO SERVICE QUICKY" || item === "Contact" ? "mobile-link" : undefined} key={item} href={sectionHref(item)} onClick={() => setOpen(false)}>{item}</a>)}</div>
+    <div className="nav-actions"><a className="nav-contact" href="#contact" aria-current={active === "contact" ? "location" : undefined} onClick={() => setOpen(false)}>Contact <span>↗</span></a><ThemeToggle/><button ref={menuButton} type="button" className={`menu-toggle ${open ? "is-open" : ""}`} aria-expanded={open} aria-controls="navigation" aria-label={open ? "Close menu" : "Open menu"} onClick={() => setOpen(!open)}><span/><span/><span/></button></div>
   </nav></header>;
 }
