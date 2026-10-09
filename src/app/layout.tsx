@@ -12,7 +12,7 @@ const configuredSiteUrl = process.env.NEXT_PUBLIC_SITE_URL?.trim();
 const siteUrl = configuredSiteUrl && /^https:\/\/[^\s/]+(?:\/[^\s]*)?$/i.test(configuredSiteUrl)
   ? configuredSiteUrl.replace(/\/$/, "")
   : undefined;
-export const viewport: Viewport = { themeColor: "#08111D", colorScheme: "dark light" };
+export const viewport: Viewport = { themeColor: "#0B3155", colorScheme: "dark light" };
 export const metadata: Metadata = {
   ...(siteUrl ? { metadataBase: new URL(siteUrl), alternates: { canonical: "/" } } : {}),
   title,
