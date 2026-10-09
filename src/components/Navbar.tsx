@@ -107,7 +107,7 @@ export function Navbar() {
   }, [open]);
   return <header ref={header} className="header"><nav className="container nav" aria-label={"Main navigation"}>
     <a className="brand" href="#home" onClick={() => setOpen(false)} aria-label={`${portfolio.name} home`}><span className="monogram">E<span>.</span></span><span>NZAYISENGA<br/><strong>Erneste</strong></span></a>
-    <div id="navigation" className={`nav-links ${open ? "is-open" : ""}`}>{navigation.map(item => <a aria-current={active === sectionHref(item).slice(1) ? "location" : undefined} className={item === "IZO SERVICE QUICKY" || item === "Contact" ? "mobile-link" : undefined} key={item} href={sectionHref(item)} onClick={() => setOpen(false)}>{item}</a>)}</div>
+    <div id="navigation" className={`nav-links ${open ? "is-open" : ""}`}>{navigation.filter(item => item !== "Contact").map(item => <a aria-current={active === sectionHref(item).slice(1) ? "location" : undefined} className={item === "IZO SERVICE QUICKY" ? "mobile-link" : undefined} key={item} href={sectionHref(item)} onClick={() => setOpen(false)}>{item}</a>)}<a className="mobile-link" aria-current={active === "contact" ? "location" : undefined} href="#contact" onClick={() => setOpen(false)}>Contact</a></div>
     <div className="nav-actions"><a className="nav-contact" href="#contact" aria-current={active === "contact" ? "location" : undefined} onClick={() => setOpen(false)}>Contact <span>↗</span></a><ThemeToggle/><button ref={menuButton} type="button" className={`menu-toggle ${open ? "is-open" : ""}`} aria-expanded={open} aria-controls="navigation" aria-label={open ? "Close menu" : "Open menu"} onClick={() => setOpen(!open)}><span/><span/><span/></button></div>
   </nav></header>;
 }

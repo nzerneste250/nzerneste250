@@ -58,15 +58,15 @@ try {
     const results = [];
     async function settled(id) {
       for (let i=0;i<40;i++) {
-        if (await evaluate(`location.hash === '#${id}' && document.querySelector('.nav-links a[href="#${id}"]')?.getAttribute('aria-current') === 'location' && document.body.style.overflow !== 'hidden'`)) break;
+        if (await evaluate(`location.hash === '#${id}' && (document.querySelector('.nav-links a[href="#${id}"]')?.getAttribute('aria-current') === 'location' || document.querySelector('.nav-contact[href="#${id}"]')?.getAttribute('aria-current') === 'location') && document.body.style.overflow !== 'hidden'`)) break;
         await new Promise(r=>setTimeout(r,50));
       }
       await new Promise(r=>setTimeout(r,140));
-      const result = await evaluate(`(()=>{
+        const result = await evaluate(`(()=>{
         const section=document.getElementById('${id}');
         const target=section.querySelector('.section-title,#education-title') || section;
         const header=document.querySelector('header').getBoundingClientRect().bottom;
-        return {id:'${id}',width:innerWidth,hash:location.hash,top:target.getBoundingClientRect().top,header,scrollY,active:document.querySelector('.nav-links a[aria-current="location"]')?.getAttribute('href'),overflow:document.documentElement.scrollWidth>innerWidth,menuOpen:document.querySelector('.menu-toggle').getAttribute('aria-expanded')==='true',locked:document.body.style.overflow==='hidden'};
+        return {id:'${id}',width:innerWidth,hash:location.hash,top:target.getBoundingClientRect().top,header,scrollY,active:(document.querySelector('.nav-links a[aria-current="location"]')||document.querySelector('.nav-contact[aria-current="location"]'))?.getAttribute('href'),overflow:document.documentElement.scrollWidth>innerWidth,menuOpen:document.querySelector('.menu-toggle').getAttribute('aria-expanded')==='true',locked:document.body.style.overflow==='hidden'};
       })()`);
       if (result.hash!==`#${id}` || result.active!==`#${id}` || result.overflow || result.menuOpen || result.locked) throw new Error(JSON.stringify(result));
       if (id==='home' ? result.scrollY>1 : result.top<result.header+7 || result.top>result.header+(id==='about'||id==='education'?420:24)) throw new Error(`Section position: ${JSON.stringify(result)}`);
@@ -77,7 +77,7 @@ try {
         await evaluate('document.querySelector(".menu-toggle").click()');
         await new Promise(r=>setTimeout(r,70));
       }
-      await evaluate(`document.querySelector('.nav-links a[href="#${id}"]').click()`);
+      await evaluate(`(document.querySelector('.nav-links a[href="#${id}"]')||document.querySelector('.nav-contact[href="#${id}"]')).click()`);
       return settled(id);
     }
     for(const width of [320,360,390,412,430,768,1024,1366,1440,1920]) {
