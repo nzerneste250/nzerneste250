@@ -22,6 +22,18 @@ I am a Rwandan software developer building practical web and mobile products for
 
 My current work combines software engineering, graphic design, and entrepreneurship through **IZO SERVICE QUICKY**, a digital services and creative technology business.
 
+## My Portfolio Website
+
+<p align="center">
+  <a href="https://nzerneste.pages.dev/">
+    <img src="./assets/portfolio-cover.svg" alt="Preview of NZAYISENGA Erneste's portfolio website" width="100%">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://nzerneste.pages.dev/"><img src="https://img.shields.io/badge/View%20My%20Portfolio-0B1525?style=for-the-badge&logo=googlechrome&logoColor=53DFAC" alt="View My Portfolio"></a>
+</p>
+
 ## Featured projects
 
 ### [ikizame.rw](https://ikizame.rw/) · Live product
