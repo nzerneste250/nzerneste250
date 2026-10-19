@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">NZAYISENGA Erneste — software developer, graphic designer and tech entrepreneur</title>
+  <desc id="desc">A refined navy technology grid with emerald, blue and gold geometric accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B1525"/><stop offset="1" stop-color="#14283A"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#53DFAC"/><stop offset="1" stop-color="#6CAEEA"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#6CAEEA" stroke-opacity=".09"/></pattern>
+  </defs>
+  <rect width="1200" height="420" rx="24" fill="url(#bg)"/>
+  <rect x="24" y="24" width="1152" height="372" rx="16" fill="url(#grid)" stroke="#6CAEEA" stroke-opacity=".18"/>
+  <path d="M810 24h366v372H930l-120-120z" fill="#53DFAC" opacity=".06"/>
+  <path d="M840 60h250M900 92h190M960 124h130" stroke="#53DFAC" stroke-opacity=".2"/>
+  <circle cx="1010" cy="270" r="92" fill="none" stroke="#6CAEEA" stroke-opacity=".22"/>
+  <circle cx="1010" cy="270" r="58" fill="none" stroke="#E9BF70" stroke-opacity=".42"/>
+  <path d="M948 270h124M1010 208v124" stroke="#53DFAC" stroke-opacity=".35"/>
+  <rect x="80" y="76" width="74" height="5" rx="2.5" fill="#53DFAC"/>
+  <text x="80" y="144" fill="#E9BF70" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="4">DEVELOPER • DESIGNER • FOUNDER</text>
+  <text x="80" y="214" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="700" letter-spacing="1">NZAYISENGA</text>
+  <text x="80" y="266" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="700" letter-spacing="1">ERNESTE</text>
+  <rect x="80" y="294" width="520" height="2" fill="url(#line)"/>
+  <text x="80" y="336" fill="#D8E5F0" font-family="Arial,Helvetica,sans-serif" font-size="20">Building practical digital products that solve real-world problems.</text>
+  <text x="80" y="370" fill="#6CAEEA" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="2">RWANDA  /  SOFTWARE ENGINEERING  /  IZO SERVICE QUICKY</text>
+</svg>
