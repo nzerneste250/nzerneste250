@@ -15,6 +15,10 @@ Rwanda · Final-year Software Engineering student at **INES Ruhengeri** · Found
   <a href="mailto:Nzerneste250@gmail.com"><img src="https://img.shields.io/badge/Email-E6BF72?style=for-the-badge&logo=gmail&logoColor=071A2D" alt="Email"></a>
 </p>
 
+<p align="center">
+  <img src="./assets/erneste-developer-card.gif" alt="Animated developer card for NZAYISENGA Erneste" width="850">
+</p>
+
 </div>
 
 ---
